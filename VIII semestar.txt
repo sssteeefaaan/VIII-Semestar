@@ -1,0 +1,108 @@
+VIII Semestar
+
+	Obavezni predmeti:
+
+		1. Paralelni sistemi
+			Šifra predmeta: /
+			Predmetni nastavnik: Emina Milovanović
+			Snimci:
+				Školska 2021/22:
+					Sve: /
+					Predavanja: /
+					Računske vežbe: /
+				Školska 2020/21:
+					Sve: https://www.youtube.com/watch?v=44yBHDqrA2w&list=PLWLPHZCdUNsMOVb2-d4gavK7Riq-B--hE
+					Predavanja: https://www.youtube.com/watch?v=44yBHDqrA2w&list=PLWLPHZCdUNsPuzw05l1FyGImbnJ-tjN-x
+					Računske vežbe: https://www.youtube.com/watch?v=p2o9KansfTI&list=PLWLPHZCdUNsMNw4XL4yho7CT-byKNWD5l
+			
+	Izborni predmeti blok A:
+		
+		1. Multimedijalni sistemi
+			Šifra predmeta: 2OER8A01
+			Predmetni nastavnik: /
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		2. Mobilni sistemi i servisi
+			Šifra predmeta: 2OER8A02
+			Predmetni nastavnik: Dragan Stojanović
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		3. Informacione tehnologije i sistemi
+			Šifra predmeta: 2OER8A03
+			Predmetni nastavnik: /
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		4. Servisno-orijentisane arhitekture
+			Šifra predmeta: 2OER8A04
+			Predmetni nastavnik: Dragan Stojanović
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		5. Računarski vid
+			Šifra predmeta: 2OER8A05
+			Predmetni nastavnik: /
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		6. Skladištenje podataka i otkrivanje znanja
+			Šifra predmeta: 2OER8A06
+			Predmetni nastavnik: Aleksandar Stanimirović
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		7. Algoritmi logičkih igara
+			Šifra predmeta: 2OER8A07
+			Predmetni nastavnik: /
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		8. Pretraživanje informacija
+			Šifra predmeta: 2OER8A08
+			Predmetni nastavnik: Suzana Stojković
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+		
+	Izborni predmeti blok B:
+	
+		9. Socijalni i pravni aspekti informatike
+			Šifra predmeta: 2OER8B01
+			Predmetni nastavnik: /
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		10. Poslovne komunikacije
+			Šifra predmeta: 2OER8B02
+			Predmetni nastavnik: /
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
+				
+		11. Inženjersko obrazovanje i održivi razvoj
+			Šifra predmeta: 2OER8B03
+			Predmetni nastavnik: /
+			Snimci: 
+				Sve: /
+				Predavanja: /
+				Računske vežbe: /
