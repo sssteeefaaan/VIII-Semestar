@@ -3,13 +3,13 @@ VIII Semestar
 	Obavezni predmeti:
 
 		1. Paralelni sistemi
-			Šifra predmeta: /
+			Šifra predmeta: 2OER7O03
 			Predmetni nastavnik: Emina Milovanović
 			Snimci:
 				Školska 2021/22:
 					Sve: https://www.youtube.com/watch?v=R_GsN0GBons&list=PLWLPHZCdUNsNHoYZlqixRNYQHNBIUjdiw
 					Predavanja: https://www.youtube.com/watch?v=R_GsN0GBons&list=PLWLPHZCdUNsMctGLPBz5YleeAGnHTC3D3
-					Računske vežbe: /
+					Računske vežbe: https://www.youtube.com/watch?v=qdhPK9Y78lc&list=PLWLPHZCdUNsPIL5nnEx7qzRfnNzQFz2-C
 				Školska 2020/21:
 					Sve: https://www.youtube.com/watch?v=44yBHDqrA2w&list=PLWLPHZCdUNsMOVb2-d4gavK7Riq-B--hE
 					Predavanja: https://www.youtube.com/watch?v=44yBHDqrA2w&list=PLWLPHZCdUNsPuzw05l1FyGImbnJ-tjN-x
@@ -21,16 +21,16 @@ VIII Semestar
 			Šifra predmeta: 2OER8A01
 			Predmetni nastavnik: /
 			Snimci: 
-				Sve: /
-				Predavanja: /
-				Računske vežbe: /
+				Sve: https://www.youtube.com/watch?v=lzPfkRbyBI4&list=PLWLPHZCdUNsPf1Nrfsh7RUzikX02-8mYo
+				Predavanja: https://www.youtube.com/playlist?list=PLWLPHZCdUNsOXaSVlCVL-ecsMFmO_Q0gt
+				Računske vežbe: https://www.youtube.com/watch?v=lzPfkRbyBI4&list=PLWLPHZCdUNsMHVKvUqywWEG3cet8Ja36r
 				
 		2. Mobilni sistemi i servisi
 			Šifra predmeta: 2OER8A02
 			Predmetni nastavnik: Dragan Stojanović
 			Snimci: 
-				Sve: /
-				Predavanja: /
+				Sve: https://www.youtube.com/watch?v=03uxDpPp-f0&list=PLWLPHZCdUNsOcEx-bISZOn_f1FFT_8GEx
+				Predavanja: https://www.youtube.com/watch?v=03uxDpPp-f0&list=PLWLPHZCdUNsPGrfWmlxl3EcLFc8tgQw57
 				Računske vežbe: /
 				
 		3. Informacione tehnologije i sistemi
@@ -45,8 +45,8 @@ VIII Semestar
 			Šifra predmeta: 2OER8A04
 			Predmetni nastavnik: Dragan Stojanović
 			Snimci: 
-				Sve: /
-				Predavanja: /
+				Sve: https://www.youtube.com/watch?v=RnjulwvzOBI&list=PLWLPHZCdUNsOl0AaAUm4K7yMEyC3ly-Dh
+				Predavanja: https://www.youtube.com/watch?v=RnjulwvzOBI&list=PLWLPHZCdUNsNSS6W_FYBpxKi0Kpz7uRGg
 				Računske vežbe: /
 				
 		5. Računarski vid
@@ -85,24 +85,18 @@ VIII Semestar
 	
 		9. Socijalni i pravni aspekti informatike
 			Šifra predmeta: 2OER8B01
-			Predmetni nastavnik: /
+			Predmetni nastavnik: Vanče Bojkov
 			Snimci: 
-				Sve: /
 				Predavanja: /
-				Računske vežbe: /
 				
 		10. Poslovne komunikacije
 			Šifra predmeta: 2OER8B02
-			Predmetni nastavnik: /
+			Predmetni nastavnik: Vanče Bojkov
 			Snimci: 
-				Sve: /
 				Predavanja: /
-				Računske vežbe: /
 				
 		11. Inženjersko obrazovanje i održivi razvoj
 			Šifra predmeta: 2OER8B03
-			Predmetni nastavnik: /
+			Predmetni nastavnik: Vanče Bojkov
 			Snimci: 
-				Sve: /
-				Predavanja: /
-				Računske vežbe: /
+				Predavanja: https://www.youtube.com/watch?v=RMdlkDfiEmw&list=PLWLPHZCdUNsNz0VlhfBK5fmjK5dbhk4dP
