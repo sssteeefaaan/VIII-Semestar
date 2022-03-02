@@ -93,7 +93,7 @@ VIII Semestar
 			Šifra predmeta: 2OER8B02
 			Predmetni nastavnik: Vanče Bojkov
 			Snimci: 
-				Predavanja: /
+				Predavanja: https://www.youtube.com/watch?v=kIFjrLwk7e4&list=PLWLPHZCdUNsOEZ6wlvHWbvYbWFOill_Km
 				
 		11. Inženjersko obrazovanje i održivi razvoj
 			Šifra predmeta: 2OER8B03
