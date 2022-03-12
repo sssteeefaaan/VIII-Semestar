@@ -61,8 +61,8 @@ VIII Semestar
 			Šifra predmeta: 2OER8A06
 			Predmetni nastavnik: Aleksandar Stanimirović
 			Snimci: 
-				Sve: https://www.youtube.com/watch?v=s_Ij3WDEdxM&list=PLWLPHZCdUNsO1_EWktHtnneM1lI37ZUH5
-				Predavanja: /
+				Sve: https://www.youtube.com/watch?v=4T6mT_jDz5E&list=PLWLPHZCdUNsO1_EWktHtnneM1lI37ZUH5
+				Predavanja: https://www.youtube.com/watch?v=4T6mT_jDz5E&list=PLWLPHZCdUNsPCP7LHgonbvuwq-D6YvL6U
 				Laboratorijske vežbe: https://www.youtube.com/watch?v=s_Ij3WDEdxM&list=PLWLPHZCdUNsPVMxcnz2dD3IpnM3cgfQqj
 				
 		7. Algoritmi logičkih igara
