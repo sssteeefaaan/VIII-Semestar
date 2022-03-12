@@ -1,0 +1,31 @@
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\appsettings.json
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\03. gRPC.exe
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\03. gRPC.deps.json
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\03. gRPC.runtimeconfig.json
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\03. gRPC.runtimeconfig.dev.json
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\03. gRPC.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\ref\03. gRPC.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\03. gRPC.pdb
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Grpc.AspNetCore.Server.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Grpc.Core.Api.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Grpc.Net.Client.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Grpc.Net.Common.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.csproj.AssemblyReference.cache
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.AssemblyInfoInputs.cache
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.AssemblyInfo.cs
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\staticwebassets\03. gRPC.StaticWebAssets.Manifest.cache
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\staticwebassets\03. gRPC.StaticWebAssets.xml
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\scopedcss\bundle\03. gRPC.styles.css
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.RazorTargetAssemblyInfo.cache
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.csproj.CopyComplete
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\ref\03. gRPC.dll
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.pdb
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+prefix=C:/Users/Stefan/AppData/Local/protobuff/install
+exec_prefix=C:/Users/Stefan/AppData/Local/protobuff/install
+libdir=C:/Users/Stefan/AppData/Local/protobuff/install/lib
+includedir=C:/Users/Stefan/AppData/Local/protobuff/install/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.19.4.0
+Libs: -L${libdir} -lprotobuf 
+Cflags: -I${includedir}
+Conflicts: protobuf-lite

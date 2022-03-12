@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. ASP .NET Core", "01. ASP .NET Core\01. ASP .NET Core.csproj", "{90772079-E33C-4E9A-B1BA-4B16DD8B7241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. gRPC", "03. gRPC\03. gRPC.csproj", "{596AFFA9-6544-4ACB-8DBF-A7554EA6EFE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90772079-E33C-4E9A-B1BA-4B16DD8B7241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90772079-E33C-4E9A-B1BA-4B16DD8B7241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90772079-E33C-4E9A-B1BA-4B16DD8B7241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90772079-E33C-4E9A-B1BA-4B16DD8B7241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596AFFA9-6544-4ACB-8DBF-A7554EA6EFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596AFFA9-6544-4ACB-8DBF-A7554EA6EFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596AFFA9-6544-4ACB-8DBF-A7554EA6EFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596AFFA9-6544-4ACB-8DBF-A7554EA6EFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A42FDD96-B832-44B6-A893-4FB3B2D2074B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "_03._gRPC";
+
+package email;
+
+service Email {
+  rpc Register (Credentials) returns (Response);
+  rpc SendEmail (Content) returns (Response);
+  rpc CheckMailbox (Credentials) returns (stream Content);
+}
+
+message Credentials {
+	string email = 1;
+	string password = 2;
+}
+
+message Response {
+	int32 code = 1;
+	string message = 2;
+}
+
+message Content {
+	string to_user = 1;
+	string from_user = 2;
+	string message = 3;
+}

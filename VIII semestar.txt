@@ -31,7 +31,7 @@ VIII Semestar
 			Snimci: 
 				Sve: https://www.youtube.com/watch?v=03uxDpPp-f0&list=PLWLPHZCdUNsOcEx-bISZOn_f1FFT_8GEx
 				Predavanja: https://www.youtube.com/watch?v=03uxDpPp-f0&list=PLWLPHZCdUNsPGrfWmlxl3EcLFc8tgQw57
-				Računske vežbe: /
+				Računske vežbe: https://www.youtube.com/watch?v=31w5ivIavzs&list=PLWLPHZCdUNsOZYzyV7cBQVb36OrNt1uWW
 				
 		3. Informacione tehnologije i sistemi
 			Šifra predmeta: 2OER8A03
@@ -47,23 +47,23 @@ VIII Semestar
 			Snimci: 
 				Sve: https://www.youtube.com/watch?v=RnjulwvzOBI&list=PLWLPHZCdUNsOl0AaAUm4K7yMEyC3ly-Dh
 				Predavanja: https://www.youtube.com/watch?v=RnjulwvzOBI&list=PLWLPHZCdUNsNSS6W_FYBpxKi0Kpz7uRGg
-				Računske vežbe: /
+				Računske vežbe: https://www.youtube.com/watch?v=m7osn8othDY&list=PLWLPHZCdUNsN-jQHUV35Pb62gHTnI6OoO
 				
 		5. Računarski vid
 			Šifra predmeta: 2OER8A05
 			Predmetni nastavnik: /
 			Snimci: 
-				Sve: /
-				Predavanja: /
-				Računske vežbe: /
+				Sve: https://www.youtube.com/watch?v=OROZRSykiV0&list=PLWLPHZCdUNsMViELZpS5FghCXYVrfJ-X3
+				Predavanja: https://www.youtube.com/watch?v=OROZRSykiV0&list=PLWLPHZCdUNsMA3FUqF0p96OaBS1SO0MJS
+				Računske vežbe: https://www.youtube.com/watch?v=ornvzIif0Bo&list=PLWLPHZCdUNsNFE4QUGxY2j3HRuF2Vs-RM
 				
 		6. Skladištenje podataka i otkrivanje znanja
 			Šifra predmeta: 2OER8A06
 			Predmetni nastavnik: Aleksandar Stanimirović
 			Snimci: 
-				Sve: /
+				Sve: https://www.youtube.com/watch?v=s_Ij3WDEdxM&list=PLWLPHZCdUNsO1_EWktHtnneM1lI37ZUH5
 				Predavanja: /
-				Računske vežbe: /
+				Laboratorijske vežbe: https://www.youtube.com/watch?v=s_Ij3WDEdxM&list=PLWLPHZCdUNsPVMxcnz2dD3IpnM3cgfQqj
 				
 		7. Algoritmi logičkih igara
 			Šifra predmeta: 2OER8A07
@@ -77,9 +77,9 @@ VIII Semestar
 			Šifra predmeta: 2OER8A08
 			Predmetni nastavnik: Suzana Stojković
 			Snimci: 
-				Sve: /
-				Predavanja: /
-				Računske vežbe: /
+				Sve: https://www.youtube.com/watch?v=HCoHX8JfZdE&list=PLWLPHZCdUNsOFansI8UKDaTZ8t46FOuX0
+				Predavanja: https://www.youtube.com/watch?v=HCoHX8JfZdE&list=PLWLPHZCdUNsMhVwGmutQd2Pz9GEU8CewL
+				Računske vežbe: https://www.youtube.com/watch?v=icm16AWtCko&list=PLWLPHZCdUNsP8RZbzf0o6PGlmlnf0bbMM
 		
 	Izborni predmeti blok B:
 	
@@ -87,7 +87,7 @@ VIII Semestar
 			Šifra predmeta: 2OER8B01
 			Predmetni nastavnik: Vanče Bojkov
 			Snimci: 
-				Predavanja: /
+				Predavanja: https://www.youtube.com/watch?v=Pcn0YINKph8&list=PLWLPHZCdUNsOJgRkZbqvXk6ErnNWZamG2
 				
 		10. Poslovne komunikacije
 			Šifra predmeta: 2OER8B02
