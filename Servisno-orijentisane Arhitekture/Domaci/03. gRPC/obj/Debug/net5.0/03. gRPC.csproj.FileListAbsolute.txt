@@ -29,3 +29,6 @@ C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\0
 C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\ref\03. gRPC.dll
 C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.pdb
 C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\obj\Debug\net5.0\03. gRPC.genruntimeconfig.cache
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\C++\gRPC\Client\packages.config
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Node\package-lock.json
+C:\Users\Stefan\Desktop\VIII-Semestar\Servisno-Orijentisane Arhitekture\Domaci\03. gRPC\bin\Debug\net5.0\Node\package.json

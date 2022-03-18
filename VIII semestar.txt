@@ -29,9 +29,14 @@ VIII Semestar
 			Šifra predmeta: 2OER8A02
 			Predmetni nastavnik: Dragan Stojanović
 			Snimci: 
-				Sve: https://www.youtube.com/watch?v=03uxDpPp-f0&list=PLWLPHZCdUNsOcEx-bISZOn_f1FFT_8GEx
-				Predavanja: https://www.youtube.com/watch?v=03uxDpPp-f0&list=PLWLPHZCdUNsPGrfWmlxl3EcLFc8tgQw57
-				Računske vežbe: https://www.youtube.com/watch?v=31w5ivIavzs&list=PLWLPHZCdUNsOZYzyV7cBQVb36OrNt1uWW
+				Školska 2021/22:
+					Sve: https://www.youtube.com/watch?v=03uxDpPp-f0&list=PLWLPHZCdUNsOcEx-bISZOn_f1FFT_8GEx
+					Predavanja: https://www.youtube.com/watch?v=03uxDpPp-f0&list=PLWLPHZCdUNsPGrfWmlxl3EcLFc8tgQw57
+					Računske vežbe: https://www.youtube.com/watch?v=31w5ivIavzs&list=PLWLPHZCdUNsOZYzyV7cBQVb36OrNt1uWW
+				Školska 2020/21:
+					Sve: https://www.youtube.com/watch?v=OxpJ6sui24M&list=PLWLPHZCdUNsM_iN-LQjsfjfQZk9qUruRt
+					Predavanja: https://www.youtube.com/watch?v=OxpJ6sui24M&list=PLWLPHZCdUNsO4DNAlMfkCbCU_cVLSQfqJ
+					Računske Vežbe: https://www.youtube.com/watch?v=g7CwEPwxn18&list=PLWLPHZCdUNsMO9d_COYCGKGSu5GUD00h_
 				
 		3. Informacione tehnologije i sistemi
 			Šifra predmeta: 2OER8A03
@@ -45,9 +50,14 @@ VIII Semestar
 			Šifra predmeta: 2OER8A04
 			Predmetni nastavnik: Dragan Stojanović
 			Snimci: 
-				Sve: https://www.youtube.com/watch?v=RnjulwvzOBI&list=PLWLPHZCdUNsOl0AaAUm4K7yMEyC3ly-Dh
-				Predavanja: https://www.youtube.com/watch?v=RnjulwvzOBI&list=PLWLPHZCdUNsNSS6W_FYBpxKi0Kpz7uRGg
-				Računske vežbe: https://www.youtube.com/watch?v=m7osn8othDY&list=PLWLPHZCdUNsN-jQHUV35Pb62gHTnI6OoO
+				Školska 2021/22:
+					Sve: https://www.youtube.com/watch?v=RnjulwvzOBI&list=PLWLPHZCdUNsOl0AaAUm4K7yMEyC3ly-Dh
+					Predavanja: https://www.youtube.com/watch?v=RnjulwvzOBI&list=PLWLPHZCdUNsNSS6W_FYBpxKi0Kpz7uRGg
+					Računske vežbe: https://www.youtube.com/watch?v=m7osn8othDY&list=PLWLPHZCdUNsN-jQHUV35Pb62gHTnI6OoO
+				Školska 2020/21:
+					Sve: https://www.youtube.com/watch?v=9NrduM_5XZk&list=PLWLPHZCdUNsOXuhB8Aj5p7nQ8lsT5NvqU
+					Predavanja: https://www.youtube.com/watch?v=9NrduM_5XZk&list=PLWLPHZCdUNsNKAtaox0hwFgS3qhQSvxFV
+					Računske Vežbe: https://www.youtube.com/watch?v=Cx32awk18LA&list=PLWLPHZCdUNsOjzocsTdA8qiz8Gqt4MZPd
 				
 		5. Računarski vid
 			Šifra predmeta: 2OER8A05
