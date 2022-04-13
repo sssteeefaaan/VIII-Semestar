@@ -1,4 +1,5 @@
 "use strict";
+
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -30,7 +31,7 @@ module.exports = {
             return Promise.resolve()
                 .then(() => {
                     return this.broker.call('actuator.set', body)
-                        .then(r => res.send(r))
+                        .then(r => res.send(r));
                 })
                 .catch(this.handleErr(res));
         },

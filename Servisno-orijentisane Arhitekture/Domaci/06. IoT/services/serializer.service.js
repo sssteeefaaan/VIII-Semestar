@@ -11,7 +11,6 @@ module.exports = {
             },
             async handler(ctx) {
                 try {
-                    console.log('Here');
                     const res = await this.influx.query(
                         `select * from temperature where sensorId=${ctx.params.sensorId}`
                     );
@@ -31,18 +30,24 @@ module.exports = {
                     `Recieved 'temperature.read' event in serializer service with payload: `,
                     payload
                 );
-                this.influx.writePoints([{
-                    measurement: 'temperature',
-                    fields: {
-                        temperature: payload.temperature,
-                        sensorId: payload.sensorId
-                    },
-                    time: payload.timestamp
-                }]);
+
+                try {
+                    this.influx.writePoints([{
+                        measurement: 'temperature',
+                        fields: {
+                            temperature: payload.temperature,
+                            sensorId: payload.sensorId
+                        },
+                        time: payload.timestamp
+                    }]);
+                } catch (err) {
+                    console.log(err);
+                }
             }
         }
     },
     created() {
+        console.log('Serializer creating... ');
         this.influx = new Influx.InfluxDB({
             host: process.env.INFLUXDB_HOST || 'influx',
             database: process.env.INFLUXDB_DATABASE || 'temperature',
@@ -57,11 +62,12 @@ module.exports = {
                 tags: ['host']
             }]
         });
+
         this.influx.getDatabaseNames().then((names) => {
             if (!names.includes('temperature')) {
-                return this.influx.createdDatabase('temperature');
+                return this.influx.createDatabase('temperature');
             }
             return null;
         });
     }
-}
+};

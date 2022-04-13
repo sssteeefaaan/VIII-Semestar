@@ -1,8 +1,8 @@
 {
-    "name": "06.-iot",
+    "name": "iot",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "moleculer.config.js",
     "scripts": {
         "start": "moleculer-runner",
         "test": "echo \"Error: no test specified\" && exit 1"

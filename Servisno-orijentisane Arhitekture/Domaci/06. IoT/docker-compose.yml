@@ -1,5 +1,7 @@
-version: '3.0'
+version: "3.0"
+
 services:
+
   influx:
     image: influxdb
     environment:
@@ -7,29 +9,31 @@ services:
     volumes:
       - influxdata:/var/lib/influx.db
     ports:
-      - '8086:8086'
+      - "8086:8086"
+
   nats:
     image: nats:latest
+
   gateway:  
     build:
       context: .
     image: service-gateway
     env_file: docker-compose.env
     environment:
-      NODEID: 'node-gateway'
+      NODEID: "node-gateway"
       SERVICES: gateway
       PORT: 3000
     ports:
       - "3000:3000"
     depends_on:
       - nats
+    
   serializer:
     build:
       context: .
-    env_file:
-      - docker-compose.env
+    env_file: docker-compose.env
     environment:
-      NODEID: 'node-serializer'
+      NODEID: "node-serializer"
       SERVICES: serializer
       ADMIN_USER: admin
       ADMIN_PASSWORD: admin
@@ -38,34 +42,37 @@ services:
     depends_on:
       - nats
       - influx
+    
   sensor:
     build:
       context: .
     env_file: docker-compose.env
     environment:
-      NODEID: 'node-sensor'
+      NODEID: "node-sensor"
       SERVICES: sensor
     depends_on:
       - nats
+
   actuator:
     build:
       context: .
     env_file: docker-compose.env
     environment:
-      NODEID: 'node-actuator'
+      NODEID: "node-actuator"
       SERVICES: actuator
     depends_on:
       - nats
+
   grafana:
     ports:
-      - 4200:3000
-    image:
-      grafana/grafana:3.1.1
+      - "4200:3000"
+    image: grafana/grafana
     depends_on:
       - influx
     links:
       - influx
     volumes:
       - influxdata:/var/lib/influx.db
+
 volumes:
   influxdata:
