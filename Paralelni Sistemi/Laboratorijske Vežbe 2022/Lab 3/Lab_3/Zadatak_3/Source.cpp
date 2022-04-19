@@ -4,31 +4,50 @@
 int main(int argc, char** argv)
 {
 	int rank, size;
+	MPI_Status stat;
+	MPI_Request req;
+
 	MPI_Init(&argc, &argv);
 	MPI_Comm_size(MPI_COMM_WORLD, &size);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-	const int n = 16, p = 4;
+	const int n = 8, p = 4;
 	int Mat[n][n], New_Mat[n][n];
 
 	if (rank == 0)
+	{
+		printf("\n\nInitial matrix:\n");
 		for (int i = 0; i < n; i++)
-			for (int j = 0; j < n; (Mat[i][j++] = i * n + j));
+		{
+			printf("|\t");
+			for (int j = 0; j < n; printf("%d\t", Mat[i][j++] = i * n + j));
+			printf("|\n");
+		}
+
+		fflush(stdout);
+	}
 
 	for (int i = 0; i < n; i++)
-		for (int j = 0; j < n; New_Mat[i][j++] = 0);
+		for (int j = 0; j < n; (New_Mat[i][j++] = 0));
 
-	MPI_Datatype temp_type, row_type, column_type;
-	MPI_Type_vector(n, 1, n + 1, MPI_INT, &temp_type);
-	MPI_Type_create_resized(temp_type, 0, 1, &row_type);
-	MPI_Type_commit(&row_type);
+	MPI_Datatype send_type, recv_type;
+	MPI_Type_create_resized(MPI_INT, 0, (n + 1) * sizeof(int), &send_type);
+	MPI_Type_commit(&send_type);
 
-	// Ne znam sta koji kurac hoce od mene
-	MPI_Type_vector(n, 1, n, MPI_INT, &column_type);
-	//MPI_Type_create_resized(MPI_INT, 0, n, &column_type); 
-	MPI_Type_commit(&column_type);
+	MPI_Type_create_resized(MPI_INT, 0, n * sizeof(int), &recv_type);
+	MPI_Type_commit(&recv_type);
 
-	MPI_Scatter(&Mat[0][0], 1, row_type, &New_Mat[0][0], 1, column_type, 0, MPI_COMM_WORLD);
+	if (rank == 0)
+	{
+		for (int i = 0; i < p; i++)
+		{
+			MPI_Isend(&Mat[0][i], n - i, send_type, i, 0, MPI_COMM_WORLD, &req);
+			MPI_Isend(&Mat[i][0], n - i, send_type, i, 0, MPI_COMM_WORLD, &req);
+		}
+	}
+
+	MPI_Recv(&New_Mat[0][0], n - rank, recv_type, 0, 0, MPI_COMM_WORLD, &stat);
+	MPI_Recv(&New_Mat[0][1], n - rank, recv_type, 0, 0, MPI_COMM_WORLD, &stat);
 
 	printf("\n\nP[%d]\n", rank);
 	for (int i = 0; i < n; i++)
@@ -39,8 +58,6 @@ int main(int argc, char** argv)
 		printf("|\n");
 	}
 	fflush(stdout);
-
-	MPI_Barrier(MPI_COMM_WORLD);
 
 	MPI_Finalize();
 	return 0;
