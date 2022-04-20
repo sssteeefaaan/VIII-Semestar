@@ -74,5 +74,12 @@ services:
     volumes:
       - influxdata:/var/lib/influx.db
 
+  analytics:
+    build:
+      context: ./analytics
+    image: analytics
+    ports:
+      - "5000:80"
+
 volumes:
   influxdata:
