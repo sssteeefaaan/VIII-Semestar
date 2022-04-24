@@ -1,0 +1,4 @@
+- Sta kad n nije deljivo sa THREADS_PER_BLOCK ili je manje?
+- Da li je neophodno voditi racuna o serijalizaciji pristupa mem bankama?
+- Dozvoljeno razdvajanje delova programa na manje blokove?
+- Da li imamo garanciju da ce sekvencijalno da se izvrse pozivi ka device-u (global), ili mora izmedju njih da stoji cudaDeviceSynchronize()?
