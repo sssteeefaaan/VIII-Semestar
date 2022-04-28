@@ -152,12 +152,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="04-Zadatak.cpp" />
     <ClCompile Include="01-Zadatak.cpp" />
     <ClCompile Include="02-Zadatak.cpp" />
     <ClCompile Include="03-Zadatak.cpp" />
+    <ClCompile Include="04-Zadatak.cpp" />
     <ClCompile Include="April-2021.cpp" />
     <ClCompile Include="Jun-2021.cpp" />
+    <ClCompile Include="Oktobar-2-2021.cpp" />
     <ClCompile Include="Oktobar-2021.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
