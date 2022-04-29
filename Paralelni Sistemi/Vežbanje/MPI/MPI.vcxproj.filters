@@ -15,28 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Oktobar-2021.cpp">
+    <ClCompile Include="Kolokvijum_I_b_2022.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="01-Zadatak.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="02-Zadatak.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="03-Zadatak.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="04-Zadatak.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="April-2021.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Jun-2021.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Oktobar-2-2021.cpp">
+    <ClCompile Include="Kolokvijum_I_a_2022.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
