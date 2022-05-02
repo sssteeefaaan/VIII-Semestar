@@ -4,6 +4,7 @@
 
 void init_matrix(int* A, int n, int m);
 bool check_result(int* A, int* B, int* C, int n, int m, int k);
+void print_matrix(const char* lbl, int* A, int n, int m);
 
 int main(int argc, char** argv)
 {
@@ -52,6 +53,7 @@ int main(int argc, char** argv)
 
 	if (rank == 0)
 	{
+		// print_matrix("C", &C[0][0], k, m);
 		if (check_result(&A[0][0], &B[0][0], &C[0][0], k, n, m))
 			printf("\nCorrect\n");
 		else
@@ -85,4 +87,16 @@ bool check_result(int* A, int* B, int* C, int n, int m, int k)
 	}
 
 	return ret;
+}
+
+void print_matrix(const char* lbl, int* A, int n, int m)
+{
+	printf("\n\n%s", lbl);
+	for(int i = 0; i < n; i++)
+	{
+		printf("|\t");
+		for(int j = 0; j < m; j++)
+			printf("%d\t", A[i * m + j]);
+		printf("|\n");
+	}
 }
