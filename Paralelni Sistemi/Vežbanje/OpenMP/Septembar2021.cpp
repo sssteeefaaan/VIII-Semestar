@@ -3,14 +3,20 @@
 
 int main(int argc, char** argv)
 {
+    omp_set_num_threads(omp_get_num_procs());
+
     LL N = 1 << 4, x_p, x_s, *b_p, *b_s, j, *a;
 
     if(argc > 1)
+    {
         N = atoll(argv[1]);
+        if(argc > 2)
+            omp_set_num_threads(atoi(argv[2]));
+    }
 
-    initialize_vector(b_p, N * 2 + 1, 1);
-    initialize_vector(b_s, N * 2 + 1, 1);
-    initialize_vector(a, N, 1);
+    initialize_vector(b_p, N * 2 + 1, 1LL);
+    initialize_vector(b_s, N * 2 + 1, 1LL);
+    initialize_vector(a, N, 1LL);
 
     j = N + 1;
     x_s = 0;

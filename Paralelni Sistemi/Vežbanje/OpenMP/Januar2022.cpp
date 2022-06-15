@@ -5,22 +5,28 @@
 
 int main(int argc, char** argv)
 {
+    omp_set_num_threads(omp_get_num_procs());
+
     LL N = 1 << 4, offset = 1 << 2, prod_s, prod_p, *a_s, *a_p, *b, *c, *x;
 
     if(argc > 1)
     {
         N = atoll(argv[1]);
         if(argc > 2)
+        {
             offset = atoll(argv[2]);
+            if(argc > 3)
+                omp_set_num_threads(atoi(argv[3]));
+        }
     }
 
     std::cout << "N = " << N << std::endl << "offset = " << offset << std::endl;
 
-    initialize_vector(a_s, N + 1, 1);
-    initialize_vector(a_p, N + 1, 1);
-    initialize_vector(b, N, 1);
-    initialize_vector(c, N + offset, 1);
-    initialize_vector(x, N, 1);
+    initialize_vector(a_s, N + 1, 1LL);
+    initialize_vector(a_p, N + 1, 1LL);
+    initialize_vector(b, N, 1LL);
+    initialize_vector(c, N + offset, 1LL);
+    initialize_vector(x, N, 1LL);
 
     prod_s = 1;
     for(LL i = 0; i < N; i++)
@@ -28,8 +34,6 @@ int main(int argc, char** argv)
         a_s[i] = a_s[i + 1] + b[i] * c[N - 1 - i + offset];
         prod_s = prod_s * x[i];
     }
-
-    omp_set_num_threads(omp_get_num_procs());
     
     LL* a_copy = (LL*) malloc(sizeof(LL) * N);
     #pragma omp parallel for
