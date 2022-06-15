@@ -9,7 +9,7 @@ int main(int arhc, char** argv)
 {
 	omp_set_num_threads(omp_get_num_procs());
 
-	const long n = 1 << 32;
+	const long n = 1 << 31;
 	int* a, * b,
 		res_par = 0,
 		res_seq = 0;

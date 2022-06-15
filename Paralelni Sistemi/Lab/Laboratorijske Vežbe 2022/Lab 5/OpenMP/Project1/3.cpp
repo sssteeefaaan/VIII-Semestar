@@ -6,7 +6,7 @@ bool isPrime(long a);
 
 int main(int argc, char** argv)
 {
-	long n = 1 << 32,
+	long n = 1 << 31,
 		primes_seq, primes_par;
 	double dt;
 

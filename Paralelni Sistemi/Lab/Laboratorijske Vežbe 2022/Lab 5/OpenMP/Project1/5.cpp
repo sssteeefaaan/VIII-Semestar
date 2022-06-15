@@ -10,7 +10,7 @@ int main(int arhc, char** argv)
 	omp_set_num_threads(omp_get_num_procs());
 
 	int* a, max_seq, max_par;
-	long n = 1 << 32;
+	long n = 1 << 31;
 	double dt;
 
 	init_vector(a, n);
