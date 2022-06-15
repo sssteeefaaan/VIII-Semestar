@@ -1,22 +1,39 @@
 #include <omp.h>
-#include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
 
+#define LL long long
+#define ULL unsigned LL
+
 template <typename T>
-void init_vector(T*& v, const long N)
+void init_vector(T*& v, const LL N)
 {
-    v = (T*)malloc(sizeof(T) * N);
-    for(long i = 0; i < N; i++)
+    v = (T*) malloc(sizeof(T) * N);
+    for(LL i = 0; i < N; i++)
         v[i] = rand() % 5 + 1;
 }
 
-int main()
+template <typename T>
+void print_vector(const char* label, const T* v, const ULL n)
 {
-    long N = 10,
-        offset = 5,
-        prod;
-    
-    int *a, *b, *c, *x;
+    using namespace std;
+    cout << label << " = |\t";
+    for(ULL i = 0; i < n; i++)
+        cout << v[i] << "\t";
+    cout << "|" << endl;
+}
+
+int main(int argc, char** argv)
+{
+    LL N, offset, prod, 
+    *a, *b, *c, *x;
+
+    if(argc > 1)
+    {
+        N = atoll(argv[1]);
+        if(argc > 2)
+            offset = atoll(argv[2]);
+    }
 
     init_vector(a, N + 1);
     init_vector(b, N);
@@ -25,26 +42,23 @@ int main()
 
     omp_set_num_threads(omp_get_num_procs());
 
-    int *a_offset = (int*)malloc(sizeof(int) * N);
+    LL *a_copy = (LL*)malloc(sizeof(LL) * N);
     #pragma omp parallel for
-    for(long i = 0; i < N; i++)
-        a_offset[i] = a[i + 1];
+    for(LL i = 0; i < N; i++)
+        a_copy[i] = a[i + 1];
     
     prod = 1;
     #pragma omp parallel for reduction(*:prod)
-    for(long i = 0; i < N; i++)
+    for(LL i = 0; i < N; i++)
     {
-        a[i] = a_offset[i] + b[i] * c[offset + N - i - 1];
+        a[i] = a_copy[i] + b[i] * c[offset + N - i - 1];
         prod *= x[i];
     }
 
-    printf("prod = %ld\n", prod);
-    printf("a = |\t");
-    for(long i = 0; i < N + 1; i++)
-        printf("%d\t", a[i]);
-    printf("|\n");
+    std::cout << "prod = " << prod << std::endl;
+    print_vector("a", a, N + 1);
 
-    free(a_offset);
+    free(a_copy);
     free(x);
     free(c);
     free(b);
