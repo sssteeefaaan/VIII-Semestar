@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv)
 {
-    omp_set_num_threads(omp_get_num_procs());
+    int th_numb = omp_get_num_procs();
 
     LL N = 1 << 4, x_p, x_s, *b_p, *b_s, j, *a;
 
@@ -11,12 +11,12 @@ int main(int argc, char** argv)
     {
         N = atoll(argv[1]);
         if(argc > 2)
-            omp_set_num_threads(atoi(argv[2]));
+            th_numb = atoi(argv[2]);
     }
 
-    initialize_vector(b_p, N * 2 + 1, 1LL);
-    initialize_vector(b_s, N * 2 + 1, 1LL);
-    initialize_vector(a, N, 1LL);
+    initialize_vector_random(b_p, N * 2 + 1, 1LL, 100LL);
+    copy_vector(b_p, b_s, N * 2 + 1);
+    initialize_vector_random(a, N, 1LL, 100LL);
 
     j = N + 1;
     x_s = 0;
@@ -26,13 +26,15 @@ int main(int argc, char** argv)
         b_s[i] = b_s[i] + b_s[j++];
     }
 
+    omp_set_num_threads(th_numb);
+
     j = N + 1;
     x_p = 0;
-    #pragma omp parallel for reduction(+:x_p)
+    #pragma omp parallel for reduction(+ : x_p) firstprivate(j)
     for(LL i = 0; i < N; i++)
     {
         x_p = x_p + a[i];
-        b_p[i] = b_p[i] + b_p[j++];
+        b_p[i] = b_p[i] + b_p[i + j];
     }
 
     std::cout << "x = " << x_p << std::endl;
