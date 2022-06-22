@@ -64,5 +64,11 @@ int main(int argc, char** argv)
     free(a_p);
     free(a_s);
 
+    #pragma omp parallel for ordered
+    for(const char* i : {"Mogu", "li", "nesto", "da", "te", "pitam", "?"})
+        #pragma omp ordered
+        std::cout << i << " ";
+    std::cout << std::endl;
+
     return 0;
 }
