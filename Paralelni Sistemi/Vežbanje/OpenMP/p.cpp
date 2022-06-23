@@ -1,16 +1,14 @@
 #include <omp.h>
 #include <stdio.h>
-#include <stdlib.h>
 
-int j;
-#pragma omp threadprivate(j)
 int main()
 {
-    j = 1;
-    #pragma omp parallel copyin(j)
+    int i;
+    double sum = 0.0;
+    #pragma omp parallel for shared (sum)
     {
-        #pragma omp master
-        j = 2;
+        for(i = 1; i <= 4; i++)
+        sum = sum + i;
     }
-    printf("j = %d\n", j);
+    printf("The sum is %lf\n", sum);
 }

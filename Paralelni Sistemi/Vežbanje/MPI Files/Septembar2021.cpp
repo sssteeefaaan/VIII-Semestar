@@ -53,8 +53,17 @@ int main(int argc, char** argv)
 		std::cout << std::endl << std::endl;
 	MPI_Barrier(MPI_COMM_WORLD);
 
-	// No fucking clue
-	int n = N / b_size,
+	
+	int gsizes[] = { N, M },
+		distribs[] = { MPI_DISTRIBUTE_BLOCK, MPI_DISTRIBUTE_BLOCK },
+		dargs[] = { MPI_DISTRIBUTE_DFLT_DARG, MPI_DISTRIBUTE_DFLT_DARG },
+		psizes[] = { N / b_size, M / b_size };
+	MPI_Datatype filetype;
+	MPI_Type_create_darray(size, rank, 2, gsizes, distribs, dargs, psizes, MPI_ORDER_C , MPI_INT, &filetype);
+	MPI_Type_commit(&filetype);
+
+	// If you want to torture yourself
+	/*int n = N / b_size,
 		m = M / b_size,
 		* bl = (int*) malloc(sizeof(int) * n * m * b_size),
 		* str = (int*) malloc(sizeof(int) * n * m * b_size);
@@ -78,11 +87,12 @@ int main(int argc, char** argv)
 	MPI_Type_commit(&filetype);
 
 	free(bl);
-	free(str);
+	free(str);*/
 
 	MPI_File f3;
 	MPI_File_open(MPI_COMM_WORLD, "file2.dat", MPI_MODE_CREATE | MPI_MODE_WRONLY, MPI_INFO_NULL, &f3);
-	MPI_File_set_view(f3, ((rank / m) * M + rank % m) * b_size * sizeof(int), etype, filetype, "native", MPI_INFO_NULL);
+	//MPI_File_set_view(f3, ((rank / m) * M + rank % m) * b_size * sizeof(int), etype, filetype, "native", MPI_INFO_NULL);
+	MPI_File_set_view(f3, 0, MPI_INT, filetype, "native", MPI_INFO_NULL);
 	MPI_File_write_all(f3, read_data, NUMB, MPI_INT, MPI_STATUS_IGNORE);
 	MPI_File_close(&f3);
 	free(read_data);
