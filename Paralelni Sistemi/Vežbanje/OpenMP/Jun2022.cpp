@@ -42,9 +42,10 @@ int main(int argc, char** argv)
     //     }
     // }
 
-    x_p[0] = x_p[0] - z[0];
+    y_p[1] = y_p[1] + x_p[0];
+    g_p += z[0];
     #pragma omp parallel for reduction(+ : g_p)
-    for(LL i = 1; i < N; i++)
+    for(LL i = 2; i < N; i++)
     {
         x_p[i - 1] = x_p[i - 1] + z[i - 1];
         y_p[i] = y_p[i] + x_p[i - 1];
