@@ -54,6 +54,7 @@ int main(int argc, char** argv)
 	MPI_Barrier(MPI_COMM_WORLD);
 
 	
+	// Credits: Lazar Kadic
 	int gsizes[] = { N, M },
 		distribs[] = { MPI_DISTRIBUTE_BLOCK, MPI_DISTRIBUTE_BLOCK },
 		dargs[] = { MPI_DISTRIBUTE_DFLT_DARG, MPI_DISTRIBUTE_DFLT_DARG },
