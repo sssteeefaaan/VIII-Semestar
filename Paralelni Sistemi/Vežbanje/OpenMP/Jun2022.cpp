@@ -53,12 +53,9 @@ int main(int argc, char** argv)
     }
     x_p[N - 1] = x_p[N - 1] + z[N - 1];
 
-    std::cout << "g_s = " << g_s << std::endl;
-    std::cout << "g_p = " << g_p << std::endl;
-    print_vector("x_s", x_s, N, std::cout);
-    print_vector("x_p", x_p, N, std::cout);
-    print_vector("y_s", y_s, N, std::cout);
-    print_vector("y_p", y_p, N, std::cout);
+    std::cout << "g = " << g_p << std::endl;
+    print_vector("x", x_p, N, std::cout);
+    print_vector("y", y_p, N, std::cout);
     std::cout << (g_p == g_s &&
     compare_vectors(x_s, x_p, N)
     && compare_vectors(y_s, y_p, N) ? 
