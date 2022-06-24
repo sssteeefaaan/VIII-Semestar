@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Septembar2021.cpp">
+    <ClCompile Include="Jun2022.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
