@@ -1,0 +1,27 @@
+Broj blokova u memoriji = Kapacitet memorije / Kapacitet bloka = 1GB / 64B = 2^30 / 2^6 = 2^24 blokova
+Broj blokova u procesoru = Kapacitet kes memorije procesora / Kapacitet bloka = 2^20 / 2^6 = 2^14 blokova
+
+a)
+Svaki blok u memoriji moze da se kodira sa jednim bitom: 0 - invalid, 1 - valid
+Za glavnu memoriju, kako bismo svaki blok oznacili kao validni/nevalidni potrebno je 2^24 bitova
+
+Svaki blok u kes memoriji procesora moze da se kodira sa dva bita:
+00 - invalid
+01 - dirty
+10 - reserved
+11 - valid
+Za svaki procesor po 2 bita za po 2^14 blokova => 2^15 bitova
+Ukupno u kes memorijama svih procesora 1024 * 2^15 = 2^10 * 2^15 = 2^25 bitova
+
+Ukupno statusnih bitova za write-once => 2^24 + 2^25 = 2^24 * (1 + 2) = 3 * 2^24 bitova = 48MB
+
+b)
+U memoriji je za svaki blok neophodno 1024 bitova + 1 modification bit = 1025 bitova = (2^10 + 1)
+Ukupno u memoriji: (2^10 + 1) * 2^24 bitova
+2 bita u svakom od procesora za validnost i odobrenje modifikacije
+Ukupno u svakom procesoru 2 * 2^14 = 2^15
+Sve ukupno: 1024 * 2^15 + (2^10 + 1) * 2^24 = 2^25 + 2^34 + 2^24 = (2^5 + 2^14 + 2^4) MB = 32 + 4096 + 16 MB = 4144MB
+
+c) Iako je potrebno mnogo vise memorije za belezenje statusa blokova, zbog kolicine procesora bi komunikacija na magistrali kao spreznoj mrezi bila skoro pa nemoguca,
+sto je neophodno za write-once snoopy protokol, s toga bih zrtvovao memoriju i iskoristio direktorijumsku semu sa potpunim adresnim preslikavanjem
+(eventualno sa ogranicenim preslikavanjem, kako bi se dodatno smanjio kapacitet za statusne bitove u glavnoj memoriji, npr. max 8, dakle (8 + 1) * 2^24 bitova naspram 1025 * 2^25)
