@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Kolokvijum_I_b_2022.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Kolokvijum_I_a_2022.cpp">
+    <ClCompile Include="..\..\..\..\Column_dist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
